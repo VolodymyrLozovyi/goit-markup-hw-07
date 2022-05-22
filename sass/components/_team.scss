@@ -22,10 +22,9 @@
     background: var(--background-white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-}
-
-.team-list:last-child {
+    &:last-child {
     margin-right: 0px;
+}
 }
 
 .team-descr {
@@ -71,14 +70,13 @@
     align-items: center;
     fill: var(--icon-color);
     transition: fill var(--trans-duration) var(--trans-func), background var(--trans-duration) var(--trans-func);
-}
-
-.team-soc-link:hover {
+    &:hover {
     background: var(--accent-color);
     fill: var(--text-light-color);
 }
-
-.team-soc-link:focus {
+&:focus {
     background: var(--accent-color);
     fill: var(--text-light-color);
 }
+}
+

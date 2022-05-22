@@ -5,11 +5,9 @@
 
 .specialization__list {
     margin-right: 30px;
-
-}
-
-.specialization__list:last-child {
+    &:last-child {
     margin-right: 0px;
+}
 }
 
 .specialization__title{

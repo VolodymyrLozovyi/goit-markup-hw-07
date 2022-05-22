@@ -28,10 +28,9 @@
     margin-right: 30px;
     display: inline-block;
     flex-wrap: wrap;
-}
-
-.benefits__list:last-child {
+    &:last-child {
     margin-right: 0;
+}
 }
 
 .benefits__title{

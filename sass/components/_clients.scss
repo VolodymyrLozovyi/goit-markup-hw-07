@@ -27,10 +27,9 @@
     align-items: center;
     fill: var(--icon-color);
     transition: fill var(--trans-duration) var(--trans-func), border-color var(--trans-duration) var(--trans-func);
-}
-
-.clients-link:hover,
-.clients-link:focus {
+    &:hover,
+    &:focus {
     border-color:var(--accent-color);
     fill: var(--accent-color);
+}
 }
