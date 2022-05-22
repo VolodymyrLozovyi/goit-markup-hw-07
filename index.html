@@ -11,10 +11,12 @@
     rel="stylesheet"
     >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>Студія</title>
 </head>
 <body class="body">
+    <!---------------header-------------------->
     <header class="header">
         <div class="container">
         <nav>
@@ -44,74 +46,77 @@
             <button class="button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
+        <!---------benefits-bem------------->
         <section class="benefits section">
             <div class="container">
             <h2 class="visually-hidden">Преимущества</h2>
-            <ul class="benefits-lists list">
-                <li class="benefits-list">
-                    <div class="benefits-logo benefits-logo-border">
-                                <svg class= "benefits-logo-icon" width="70" height="70">
+            <ul class="benefits__lists list">
+                <li class="benefits__list">
+                    <div class="benefits__logo benefits__logo--border">
+                                <svg class= "benefits__icon" width="70" height="70">
                                     <use href="./images/icons.svg#icon-antenna"></use>
                                 </svg>
                         </div>
-                    <h3 class="benefits-title">Внимание к деталям</h3>
-                    <p class="benefits-item">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <h3 class="benefits__title">Внимание к деталям</h3>
+                    <p class="benefits__item">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li class="benefits-list">
-                    <div class="benefits-logo benefits-logo-border">
-                                <svg class="benefits-logo-icon" width="70" height="70">
+                <li class="benefits__list">
+                    <div class="benefits__logo benefits__logo--border">
+                                <svg class="benefits__icon" width="70" height="70">
                                     <use href="./images/icons.svg#icon-clock"></use>
                                 </svg>
                     </div>
-                    <h3 class="benefits-title">Пунктуальность</h3>
-                    <p class="benefits-item">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <h3 class="benefits__title">Пунктуальность</h3>
+                    <p class="benefits__item">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li class="benefits-list">
-                    <div class="benefits-logo benefits-logo-border">
-                                <svg class="benefits-logo-icon" width="70" height="70">
+                <li class="benefits__list">
+                    <div class="benefits__logo benefits__logo--border">
+                                <svg class="benefits__icon" width="70" height="70">
                                     <use href="./images/icons.svg#icon-diagram"></use>
                                 </svg>
                         </div>
-                    <h3 class="benefits-title">Планирование</h3>
-                    <p class="benefits-item">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <h3 class="benefits__title">Планирование</h3>
+                    <p class="benefits__item">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li class="benefits-list">
-                    <div class="benefits-logo benefits-logo-border">
-                                <svg class="benefits-logo-icon" width="70" height="70">
+                <li class="benefits__list">
+                    <div class="benefits__logo benefits__logo--border">
+                                <svg class="benefits__icon" width="70" height="70">
                                     <use href="./images/icons.svg#icon-astronaut"></use>
                                 </svg>
                     </div>
-                    <h3 class="benefits-title">Современные технологии</h3>
-                    <p class="benefits-item">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <h3 class="benefits__title">Современные технологии</h3>
+                    <p class="benefits__item">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
             </div>
         </section>
+        <!---------specialization-bem------------->
         <section class="specialization section">
             <div class="container">
-            <h2 class="specialization-title">Чем мы занимаемся</h2>
-            <ul class="specialization-items">
-                <li class="specialization-list list">
-                    <div class="specialization-img-wrap">
+            <h2 class="specialization__title">Чем мы занимаемся</h2>
+            <ul class="specialization__items">
+                <li class="specialization__list list">
+                    <div class="specialization__wrap">
                     <img src="./images/tablet.jpg" alt="tablet" width="370">
-                <h3 class="specialization-img-descr">Десктопные приложения</h3>
+                <h3 class="specialization__descr">Десктопные приложения</h3>
                 </div>
                 </li>
-                <li class="specialization-list list">
-                    <div class="specialization-img-wrap">
+                <li class="specialization__list list">
+                    <div class="specialization__wrap">
                     <img src="./images/mobile.jpg" alt="mobile" width="370">
-                <h3 class="specialization-img-descr">Мобильные приложения</h3>
+                <h3 class="specialization__descr">Мобильные приложения</h3>
                 </div>
                 </li>
-                <li class="specialization-list list">
-                    <div class="specialization-img-wrap">
+                <li class="specialization__list list">
+                    <div class="specialization__wrap">
                     <img src="./images/palette.jpg" alt="palette" width="370">
-                <h3 class="specialization-img-descr">Дизайнерские решения</h3>
+                <h3 class="specialization__descr">Дизайнерские решения</h3>
                 </div>
                 </li>
             </ul>
             </div>
         </section>
+        <!---------team------------->
         <section class="team section">
             <div class="container">
             <h2 class="team-title">Наша команда</h2>
@@ -267,6 +272,7 @@
             </ul>
             </div>
         </section>
+        <!---------clients------------->
         <section class="clients section">
             <div class="container">
             <h2 class="clients-title">Постоянные клиенты</h2>
@@ -319,6 +325,7 @@
             </div>
         </section>
     </main>
+    <!------------footer------------------ -->
     <footer class="footer">
         <div class="container">
             <div>

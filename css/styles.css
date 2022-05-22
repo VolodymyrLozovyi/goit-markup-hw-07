@@ -27,9 +27,7 @@
     background-color: var(--background-white-color)
 }
 .link {
-    text-decoration: none;
-
-    
+    text-decoration: none;  
 }
 
 .list{
@@ -264,17 +262,17 @@ li {
 
 /* --------------------BENEFITS---------------------- */
 
-.benefits-menu{
+.benefits {
     display: flex;
     justify-content: center;
-
+    padding: var(--typical-padding) 0 0;
 }
 
-.benefits-logo + .benefits-logo  {
+.benefits__logo + .benefits__logo  {
     margin-left: 30px;
 }
 
-.benefits-logo-border {
+.benefits__logo--border {
     width: 270px;
     height: 120px;
     background: var(--background-light-color);
@@ -285,27 +283,22 @@ li {
     margin-bottom: 30px;
 }
 
-
-.benefits {
-    padding: var(--typical-padding) 0 0;
-}
-
-.benefits-lists {
+.benefits__lists {
     display: flex;
 }
 
-.benefits-list {
+.benefits__list {
     width: 270px;
     margin-right: 30px;
     display: inline-block;
     flex-wrap: wrap;
 }
 
-.benefits-list:last-child {
+.benefits__list:last-child {
     margin-right: 0;
 }
 
-.benefits-title{
+.benefits__title{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -313,7 +306,7 @@ li {
     margin-bottom: 10px;
 }
 
-.benefits-item{
+.benefits__item{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -321,21 +314,21 @@ li {
 }
 
 /* --------------------SPECIALIZATION---------------------- */
-.specialization-items {
+.specialization__items {
     display: flex;
 }
 
 
-.specialization-list {
+.specialization__list {
     margin-right: 30px;
 
 }
 
-.specialization-list:last-child {
+.specialization__list:last-child {
     margin-right: 0px;
 }
 
-.specialization-title{
+.specialization__title{
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
@@ -344,11 +337,11 @@ color: var(--title-color);
 margin-bottom: 50px;
 }
 
-.specialization-img-wrap {
+.specialization__wrap {
     position: relative;
 }
 
-.specialization-img-descr {
+.specialization__descr {
     position: absolute;
     bottom: 0;
     font-weight: 700;
